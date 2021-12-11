@@ -20,6 +20,7 @@
 #ifndef THRIFT_PY_BINARY_H
 #define THRIFT_PY_BINARY_H
 
+#define PY_SSIZE_T_CLEAN
 #include <Python.h>
 #include "ext/protocol.h"
 #include "ext/endian.h"
